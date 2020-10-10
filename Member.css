@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+	max-width: 800px;
+	margin: 0 auto;
+	height: auto;
+	display: block;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.row{
+	margin: 0;
+}
+
+.row,
+.row > .column {
+	padding: 0.5%;
+}
+
+.column {
+	float: left;
+	width: 49%;
+}
+
+h1{
+	font-size: 30px;
+	padding: 2px;
+}
+
+p{
+	font-size: 24px;
+}
+
+.Farley img{
+	width: 250px;
+	height: auto;
+}
+
+.Farley{
+	background-color: rgb(216, 190, 102);
+	border-radius: 22px;
+}
+
+@media screen and (max-width: 767px) {
+	.column {
+		width: 100%
+	}
+
+	.row,
+	.row > .column {
+		padding: 0;
+	}
+}
