@@ -52,6 +52,26 @@ p{
 	border-radius: 22px;
 }
 
+.Everwin img{
+	width: 250px;
+	height: auto;
+}
+
+.Everwin{
+	background-color: rgb(204, 122, 0);
+	border-radius: 22px;
+}
+
+.SK img{
+	width: 375px;
+	height: auto;
+}
+
+.SK{
+	background-color: rgb(102, 102, 255);
+	border-radius: 22px;
+}
+
 @media screen and (max-width: 767px) {
 	.column {
 		width: 100%
